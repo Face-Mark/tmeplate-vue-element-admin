@@ -22,7 +22,7 @@ export class Webscoket {
     this.ws.onmessage = (event) => {
       const info = {}
       const { msg, opt } = JSON.parse(event.data)
-      if (typeof msg == 'string') {
+      if (typeof msg === 'string') {
         info.msg = JSON.parse(msg)
       } else {
         info.msg = msg
