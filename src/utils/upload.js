@@ -7,10 +7,10 @@ const hostUrl = process.env.VUE_APP_PIC_DOMURL
 const videoHostUrl = process.env.VUE_APP_VIDEO_DOMURL
 const Bucket = process.env.VUE_APP_PIC_BUCKET // 存储桶名称
 const ENV = process.env.NODE_ENV
-const Region = 'ap-shanghai'
+const Region = '*************'
 var cos = new COS({
-  SecretId: 'AKIDc7PVQ9evynQt9B0c0A6pMgmdFbhX7QSE',
-  SecretKey: 'Ypqa3HFzWs0ua3HJ8i5DAsOgjZAXgcLq'
+  SecretId: '********************',
+  SecretKey: '**********************'
 })
 
 // 上传
